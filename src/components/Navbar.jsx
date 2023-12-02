@@ -111,6 +111,11 @@ function Navbar() {
               MISSION & MOTO
             </a>
           </Link>
+          <Link to="/campus">
+            <a href="#" className="text-white">
+              CAMPUS
+            </a>
+          </Link>
           <Link to="/recruitment">
             <a href="#" className="text-white">
              RECRUIMENT
