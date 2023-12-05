@@ -23,7 +23,7 @@ function Navbar() {
             <h5 className='fw-bold ms-4'>Toll Free: 1364 | 0135 3520100</h5>
           </div>
           <div className="col-6 d-flex justify-content-end">
-            <button className="btn shadow text-light fw-bold btn-sm btn-primary ms-2 me-2">OFFICIAL WEBSITE</button>
+            <a href="https://www.mgmccsit.ac.in/Placements%20&%20Training%20Cell.htm" className="btn shadow text-light fw-bold btn-sm btn-primary ms-2 me-2">OFFICIAL WEBSITE</a>
 
 
             <span className='d-flex justify-content-safe'>
@@ -66,13 +66,13 @@ function Navbar() {
                 <Link to="/campus" className="nav-item me-3">
                   <a className="nav-link" href="#">CAMPUS</a>
                 </Link>
-                <Link to='/recruitment' className="nav-item me-3">
-                  <a className="nav-link" href="#">RECRUITMENT</a>
+                <Link to='/college' className="nav-item me-3">
+                  <a className="nav-link" href="#">COLLEGE</a>
                 </Link>
            
                 <li className="nav-item  me-3">
                   <button className='btn  shadow btn-primary'>
-                    <Link to="/register" className="text-light text-decoration-none">
+                    <Link to="/contact" className="text-light text-decoration-none">
                       <span>CONTACT US</span>
                     </Link>
                   </button>
@@ -116,15 +116,15 @@ function Navbar() {
               CAMPUS
             </a>
           </Link>
-          <Link to="/recruitment">
+          <Link to="/college">
             <a href="#" className="text-white">
-             RECRUIMENT
+             COLLEGE
             </a>
           </Link>
         
           <li>
             <button className="btn bg-blue-500 text-white">
-              <a href="/register" className="text-white">
+              <a href="/contact" className="text-white">
                 <span>CONTACT US</span>
               </a>
             </button>

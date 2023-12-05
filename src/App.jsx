@@ -16,6 +16,8 @@ import Placement from './components/Placement'
 import About from './components/About'
 import Moto from './components/Moto'
 import Campus from './components/Campus'
+import College from './components/College'
+import Contact from './components/Contact'
 function App() {
 
 
@@ -82,11 +84,22 @@ function App() {
           </>
         } />
 
-        <Route exact path='/recruitment' element={
+        <Route exact path='/college' element={
           <>
 
-
+            <College/>
             <Main1 />
+            <Main2 />
+            <Checkout />
+            <Main3 />
+            <PastRecruiters />
+          </>
+        } />
+
+
+<Route exact path='/contact' element={
+          <>
+           <Contact/>
             <Main2 />
             <Checkout />
             <Main3 />

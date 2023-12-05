@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Checkout() {
     return (
@@ -8,28 +9,28 @@ function Checkout() {
                 Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes.
             </p>
             <div className="container mt-4 lg:flex flex-col lg:flex-row justify-content-evenly">
-                <div className="card  hover:bg-slate-300 lg:w-[400px] w-[350px] mb-4 lg:mb-0" >
-                    <img className="card-img-top object-cover " src="https://images.collegedunia.com/public/college_data/images/campusimage/141983345422220124301935560.jpg" alt="Card image"   height="350px"/>
+                <Link to="/college" className="card  hover:bg-slate-300 lg:w-[400px] w-[350px] mb-4 lg:mb-0" >
+                    <img className="card-img-top object-cover h-[350px]" src="https://yt3.googleusercontent.com/ytc/APkrFKbbH3rl6Y5QUAFC6wpe4iEev669pwyoArDSTbopiA=s900-c-k-c0x00ffffff-no-rj" alt="Card image"   />
                         <div className="card-body justify-content-center d-flex align-items-center">
-                            <h5 className="card-title text-xl font-bold ">Histroy OF Placements</h5>
+                            <h5 className="card-title text-xl font-bold ">MGMs College of Engineering</h5>
                            
                         </div>
-                </div>
+                </Link>
 
-                <div className="card hover:bg-slate-300 lg:w-[400px] w-[350px]  mb-4 lg:mb-0"  >
-                    <img className="card-img-top" src="https://images.collegedunia.com/public/college_data/images/campusimage/141983345422220124301935560.jpg" alt="Card image" height="250px"/>
+                <Link to="/campus" className="card hover:bg-slate-300 lg:w-[400px] w-[350px]  mb-4 lg:mb-0"  >
+                    <img className="card-img-top h-[350px]" src="https://content3.jdmagicbox.com/comp/nanded/dc/9999p2462.2462.090902123344.n8q3dc/catalogue/mahatma-gandhi-mission-s-college-of-engineering-airport-road-anand-nagar-chowk-nanded-colleges-1lbtudt.jpg" alt="Card image"/>
                         <div className="card-body justify-content-center d-flex align-items-center">
-                            <h5 className="card-title  text-xl font-bold">More about Training & placement</h5>
+                            <h5 className="card-title  text-xl font-bold">Campus</h5>
                            
                         </div>
-                </div>
-                <div className="card hover:bg-slate-300 lg:w-[400px] w-[350px]  mb-4 lg:mb-0"  >
-                    <img className="card-img-top" src="https://images.collegedunia.com/public/college_data/images/campusimage/141983345422220124301935560.jpg" alt="Card image"  height="250px"/>
+                </Link>
+                <Link to="/placement" className="card hover:bg-slate-300 lg:w-[400px] w-[350px]  mb-4 lg:mb-0"  >
+                    <img className="card-img-top h-[350px]" src="https://content.jdmagicbox.com/comp/def_content/placement_services_for_employers/default-placement-services-for-employers-5.jpg" alt="Card image"  />
                         <div className="card-body justify-content-center d-flex align-items-center">
-                            <h5 className="card-title  text-xl font-bold">Achivements</h5>
+                            <h5 className="card-title  text-xl font-bold">Placements</h5>
                            
                         </div>
-                </div>
+                </Link>
             </div>
         </div>
     )

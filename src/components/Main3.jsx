@@ -1,5 +1,6 @@
 import React from 'react'
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
+import { Link } from 'react-router-dom';
 function Main3() {
     return (
         <div className="parallax-container">
@@ -22,7 +23,7 @@ function Main3() {
                         </p>
                         <span>
 
-                        <button className='btn shadow-lg  mt-5 fw-bold rounded-0 btn-primary'>Go Explore <ArrowRightAltIcon /> </button>
+                        <Link to="/about" className='btn shadow-lg  mt-5 fw-bold rounded-0 btn-primary'>Go Explore <ArrowRightAltIcon /> </Link>
                         </span>
                     </div>
 
