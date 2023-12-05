@@ -124,9 +124,9 @@ function Navbar() {
         
           <li>
             <button className="btn bg-blue-500 text-white">
-              <a href="/contact" className="text-white">
+              <Link to="/contact" className="text-white">
                 <span>CONTACT US</span>
-              </a>
+              </Link>
             </button>
           </li>
         </ul>
