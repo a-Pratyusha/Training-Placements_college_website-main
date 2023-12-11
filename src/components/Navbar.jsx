@@ -43,8 +43,8 @@ function Navbar() {
               <img src="https://upload.wikimedia.org/wikipedia/en/4/41/MGM_Institute_of_Health_Sciences_Logo.png" alt="" className='navbar-brand rounded-full  object-fill  w-[50px] lg:w-[70px]' />
 
               <div className=' flex-col justify-center hidden lg:flex'>
-                <span className='font-bold '>MGM College of Engineering Nanded</span>
-                <span className='small text-gray-500'>Placement Department</span>
+                <span className='font-bold '>Mahatma Gandhi Missions College of Engineering Nanded</span>
+                <span className='small text-gray-500'>Training and Placement Department</span>
               </div>
             </span>
 

@@ -8,7 +8,7 @@ const Moto= () => {
     <div className="container mx-auto text-center">
       <h2 className="text-5xl font-bold mb-8">Our Mission & Motto</h2>
       <p className="text-gray-600 mb-12">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      To be one of the leading Institution for Engineering education developing proficient Engineers with global acceptance in the service of mankind.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -34,33 +34,33 @@ const Moto= () => {
 
 const mottoItems = [
   {
-    title: 'Innovation',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ',
+    title: 'Our Moto',
+    description: 'MGM’s College of Engineering aspires to produce globally proficient engineers nurturing Creativity and Innovation, Research and Entrepreneurial attitude with Human Values amongst the students. ',
     icon: <Lightbulb fontSize="large" />,
   },
   {
-    title: 'Teamwork',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Our Mission',
+    description: 'To impart quality Engineering Education to the students to benefit society by creating best Professionals, Researchers and Entrepreneurs fostering a Culture of Collaboration and Excellence with Human Values on a sustainable basis.',
     icon: <Group fontSize="large" />,
   },
   {
-    title: 'Quality',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Our vision',
+    description: 'MGM’s College of Engineering aspires to produce globally proficient engineers nurturing Creativity and Innovation, Research and Entrepreneurial attitude with Human Values amongst the students.',
     icon: <ThumbUp fontSize="large" />,
   },
   {
-    title: 'Efficiency',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Strong industry interface',
+    description: 'MGMsCOE has a strong, active and growing interface with business and industry, with experts from a range of leading companies and thought leaders of IT Industry delivering regular guest lectures and serving as members of various advisory boards.',
     icon: <AccessTime fontSize="large" />,
   },
   {
-    title: 'Customer Satisfaction',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Project',
+    description: 'Students are encouraged to take up projects on contemporary topics as a part of their independent study. Arrangements will be made for practical training on live projects in conjunction with leading companies in the industry.',
     icon: <Star fontSize="large" />,
   },
   {
-    title: 'Growth',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Acheivements',
+    description: 'eeeee, Selections in SMART INDIA HACKATHON, Gvvvvvvv, Gvvvvvv,vvvvv FELLOWSHIP Selection (SPONSORED BY GITHUB).',
     icon: <TrendingUp fontSize="large" />,
   },
 ];

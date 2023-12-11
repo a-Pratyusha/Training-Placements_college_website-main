@@ -40,29 +40,29 @@ function Footer() {
             <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
             
               <h6 className="text-uppercase fw-bold mb-4">
-                <i className="fas fa-gem me-3"></i>Travel Safety
+                <i className="fas fa-gem me-3"></i>Placement Cell , MGMs COE
               </h6>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique labore quos saepe ab aliquid dolores hic, dolorum sunt laborum neque magni. Soluta ratione velit voluptates? Maiores, eius veniam nesciunt nulla quia similique.
+              MGM Institutions have the privilege of the high caliber & long standing experience of all our trustees in the field of education and health services.
               </p>
             </div>
            
             <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
               
               <h6 className="text-uppercase fw-bold mb-4">
-                Service
+                Address
               </h6>
               <p>
-                <a href="#!" className="text-reset">complain</a>
+                <a href="#!" className="text-reset">Mahatma Gandhi Missions College of Engineering Nanded</a>
               </p>
               <p>
-                <a href="#!" className="text-reset">Hotels</a>
+                <a href="#!" className="text-reset">Airport Road,</a>
               </p>
               <p>
-                <a href="#!" className="text-reset">Car</a>
+                <a href="#!" className="text-reset">Nanded.</a>
               </p>
               <p>
-                <a href="#!" className="text-reset">Bus</a>
+                <a href="#!" className="text-reset">PIN:431605</a>
               </p>
             </div>
            
@@ -78,7 +78,7 @@ function Footer() {
                 <a href="#!" className="text-reset">Imergency Contact</a>
               </p>
               <p>
-                <a href="#!" className="text-reset">Orders</a>
+                <a href="#!" className="text-reset">Administration</a>
               </p>
               <p>
                 <a href="#!" className="text-reset">Help</a>
@@ -90,10 +90,10 @@ function Footer() {
             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
              
               <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-              <p><i className="fas fa-home me-3"></i> Maharshtra  Nanded  Inc</p>
+              <p><i className="fas fa-home me-3"></i> Placement Cell</p>
               <p>
                 <i className="fas fa-envelope me-3"></i>
-                info@example.com
+               tpo@mgmcen.ac.in
               </p>
               <p><i className="fas fa-phone me-3"></i> + 91 234 567 88</p>
               <p><i className="fas fa-print me-3"></i> + 91 234 567 89</p>
@@ -107,8 +107,8 @@ function Footer() {
     
       
       <div className="text-center p-4" style={{backgroundColor: "rgba(0, 0, 0, 0.05)"}}>
-        © 2021 Copyright:
-        <a className="text-reset fw-bold" href="">TravelSafety.in</a>
+        © 2023 Copyright:
+        <a className="text-reset fw-bold" href="">MGMCEN TPC </a>
       </div>
       
     </footer>

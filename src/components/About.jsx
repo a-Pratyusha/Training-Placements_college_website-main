@@ -1,25 +1,27 @@
 import React from 'react';
 import {Instagram , Facebook , Twitter} from "@mui/icons-material"
+import FacultyProfile from './FacultyProfile';
+import titresir from '../assets/titresir.png' 
 const aboutData = [
   {
-    name: "Shivprasad Titre",
-    description: "Asst. Professor, TPO Department",
-    image: "https://www.roadtolaughtale.com/wp-content/uploads/2023/03/why-is-luffy-so-strong-min.jpg",
-    quote:"inventore maiores quia accusamus dicta ipsum, sapiente quos architecto quas corporis totam tenetur quasi incidunt expedita reiciendis similique eum. Cumque.",
-    paragraph:`Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur perspiciatis ea pariatur nam dolor quisquam, laboriosam iste odit possimus illo inventore recusandae sequi voluptatem dolore vero nostrum qui dignissimos laborum numquam delectus. Magni consectetur consequuntur sapiente soluta quibusdam, distinctio ducimus libero, odit repudiandae quisquam quo nobis. Labore error reiciendis tempora ullam earum voluptatibus vitae minus dolores eveniet blanditiis vero voluptatem ducimus qui magnam dolore modi natus, dignissimos atque iusto consectetur quam laborum nisi eum ea? Repellat ex enim iure, veritatis inventore maiores quia accusamus dicta ipsum, sapiente quos architecto quas corporis totam tenetur quasi incidunt expedita reiciendis similique eum. Cumque.`
+    name: "Mr. Shivprasad Titare",
+    description: "Asst. Professor and TPO",
+    image: "http://www.mgmcen.ac.in/images/gallery/21082018134646-TPO.jpg",
+    quote:"“Education is the key that unlocks the golden door to freedom.” ",
+    paragraph:`Training & Placement Cell has an important role to play in a student’s future and is an indispensable pillar of the Institute. This cell continuously strives to help students in pursuing their career goals by acquiring employment-seeking skills and ultimately to attain desired employment. This is accomplished through building a strong partnership amongst students, alumni, faculty-members and industries.
+    MGM’s COE follows centralized placement activity which gives each branch equal opportunity to grow for sustained excellence in career through training & placement. Towards this, a Training and Placement Cell has been established with the following major objectives in order to assist students to develop their academic and career interests, and help them in achieving their short-term and long-term goals through individual counseling and group discussion.
+    `
   },
-  {
-    name: "Ashutosh Kumar",
-    description: "Asst. Professor, TPO Department",
-    quote:"inventore maiores quia accusamus dicta ipsum, sapiente quos architecto quas corporis totam tenetur quasi incidunt expedita reiciendis similique eum. Cumque.",
-    image: "https://cdnb.artstation.com/p/assets/images/images/026/142/657/large/sleepy-jhin-roronoa-zoro-portrait.jpg?1587999560",
-    paragraph:`Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur perspiciatis ea pariatur nam dolor quisquam, laboriosam iste odit possimus illo inventore recusandae sequi voluptatem dolore vero nostrum qui dignissimos laborum numquam delectus. Magni consectetur consequuntur sapiente soluta quibusdam, distinctio ducimus libero, odit repudiandae quisquam quo nobis. Labore error reiciendis tempora ullam earum voluptatibus vitae minus dolores eveniet blanditiis vero voluptatem ducimus qui magnam dolore modi natus, dignissimos atque iusto consectetur quam laborum nisi eum ea? Repellat ex enim iure, veritatis inventore maiores quia accusamus dicta ipsum, sapiente quos architecto quas corporis totam tenetur quasi incidunt expedita reiciendis similique eum. Cumque.`
-  }
+  
 ]
 
 function About() {
   return (
     <div className='container-fluid mt-5 flex flex-col gap-5'>
+
+      <div className="container text-3xl lg:text-5xl text-center font-bold">
+          Training and Placement Officer
+      </div>
 
     {aboutData.map((data, index) => (
       
@@ -28,7 +30,7 @@ function About() {
           <div className='flex flex-col justify-center items-center lg:items-start'>
             <img
               src={data.image}
-              className='w-full h-[300px] position-center object-cover rounded-xl  shadow'
+              className='w-full h-[300px] lg:h-[400px] position-center object-cover rounded-xl  shadow'
               alt="Shivprasad Titre"
             />
             <div className='flex flex-col mt-3 text-center lg:text-left'>
@@ -60,6 +62,13 @@ function About() {
         </div>
       </div>
     ))}
+
+        <div className="container text-5xl text-center font-bold hidden lg:block">
+          Faculty Profile
+      </div>
+      <div className="container overflow-x-scroll hidden lg:block">
+      <FacultyProfile/>
+      </div>
 
     </div>
   );

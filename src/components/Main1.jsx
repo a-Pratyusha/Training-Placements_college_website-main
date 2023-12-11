@@ -17,16 +17,19 @@ function Main1() {
         <div className=" ">
          
           <div className='flex items-center gap-3 justify-start'>
-            <img src="https://www.mgmccsit.ac.in/mahatma%20gandhi%20image_jpg%20(30).jpg"  className='shadow rounded-full w-[80px] lg:w-[90px] h-[80px] lg:h-[90px] object-cover ' alt="" />
+            <img src="http://www.mgmcen.ac.in/images/gallery/21082018134646-TPO.jpg"  className='shadow rounded-full w-[80px] lg:w-[90px] h-[80px] lg:h-[90px] object-cover ' alt="" />
             <div className='flex flex-col'>
               <span className='text-2xl font-bold'>Shivprasad Titre</span>
               <span className='text-sm text-grey-500'> Asst. Professior TPO Department </span>
             </div>
           </div>
             <p className='mt-4 text-justify fs-5   '>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum perspiciatis pariatur dolore possimus itaque amet cum, quia molestias accusamus accusantium magnam cumque saepe tempore. Et totam cumque aut dolor iste porro pariatur.
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum perspiciatis pariatur dolore possimus itaque amet cum, quia molestias accusamus accusantium magnam cumque saepe tempore. Et totam cumque aut dolor iste porro pariatur.
-            </p>
+            Assist students to develop and implement successful job search strategies.
+Work with faculty members, department heads and administration to integrate career planning with academic curriculum.
+Empower students with life-long, career decision-making skills.
+Providing resources and activities to facilitate the career-planning process.
+Act as an interface among students, alumni and the employment community.
+Create awareness in the students regarding future career options. </p>
               <Link to="/about" className='text-primary fs-5'>read more</Link>
         </div>
         <div className=" flex justify-center ">

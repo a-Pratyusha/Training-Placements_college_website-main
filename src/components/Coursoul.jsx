@@ -12,7 +12,7 @@ function Coursoul() {
               <div className='  d-flex flex-column justify-content-center align-items-center '>
 
                 <h1 className='text-2xl lg:text-5xl text-center fw-bold gap-2 flex flex-col lg:flex-row text-light '>
-                  <span>MGM College Of Engineering</span>
+                  <span>MGMs College Of Engineering</span>
                   <span>Nanded</span>
                 </h1>
                 <h4 className='lg:text-xl text-lg  text-light  mt-3'>Training & Placement Department</h4>
@@ -26,7 +26,7 @@ function Coursoul() {
               <div className='  d-flex flex-column justify-content-center align-items-center '>
 
                 <h1 className='text-2xl lg:text-5xl text-center fw-bold gap-2 flex flex-col lg:flex-row text-light '>
-                  <span>MGM College Of Engineering</span>
+                  <span>MGMs College Of Engineering</span>
                   <span>Nanded</span>
                 </h1>
                 <h4 className='lg:text-xl text-lg  text-light  mt-3'>Training & Placement Department</h4>
@@ -41,7 +41,7 @@ function Coursoul() {
               <div className='  d-flex flex-column justify-content-center align-items-center '>
 
                 <h1 className='text-2xl lg:text-5xl text-center fw-bold gap-2 flex flex-col lg:flex-row text-light '>
-                  <span>MGM College Of Engineering</span>
+                  <span>MGMs College Of Engineering</span>
                   <span>Nanded</span>
                 </h1>
                 <h4 className='lg:text-xl text-sm  text-light  mt-3'>Training & Placement Department</h4>
